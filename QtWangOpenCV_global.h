@@ -1,0 +1,12 @@
+#ifndef QTWANGOPENCV_GLOBAL_H
+#define QTWANGOPENCV_GLOBAL_H
+
+#include <QtCore/qglobal.h>
+
+#if defined(QTWANGOPENCV_LIBRARY)
+#  define QTWANGOPENCV_EXPORT Q_DECL_EXPORT
+#else
+#  define QTWANGOPENCV_EXPORT Q_DECL_IMPORT
+#endif
+
+#endif // QTWANGOPENCV_GLOBAL_H
