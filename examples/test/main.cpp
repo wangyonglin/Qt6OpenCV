@@ -10,6 +10,7 @@ int main(int argc, char *argv[])
     player.resize(800,600);
     player.play();
     player.show();
+    player.stop();
     return a.exec();
 }
 
